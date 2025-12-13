@@ -7,7 +7,7 @@ namespace IM101
 {
     internal class logdata
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+        SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
 
         public int LogID { get; set; }
         public string ActionType { get; set; } 

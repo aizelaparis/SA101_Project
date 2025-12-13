@@ -19,7 +19,7 @@ namespace IM101
         {
             List<categoriesdata> listData = new List<categoriesdata>();
 
-            using (SqlConnection connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
+            using (SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
             {
                 connect.Open();
 
@@ -53,7 +53,7 @@ namespace IM101
 
             try
             {
-                using (SqlConnection connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
+                using (SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
                 {
                     connect.Open();
 

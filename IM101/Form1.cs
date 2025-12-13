@@ -15,7 +15,7 @@ namespace IM101
     {
         public static string username;
 
-        SqlConnection connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+        SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
 
         public Form1()
         {

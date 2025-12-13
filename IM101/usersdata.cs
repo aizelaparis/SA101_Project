@@ -21,7 +21,7 @@ namespace IM101
             List<usersdata> listData = new List<usersdata>();
 
             using (SqlConnection
-          connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
+          connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
             {
                 connect.Open();
 
@@ -55,7 +55,7 @@ namespace IM101
         {
             List<usersdata> listData = new List<usersdata>();
 
-            using (SqlConnection connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True"))
+            using (SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True"))
             {
                 connect.Open();
 

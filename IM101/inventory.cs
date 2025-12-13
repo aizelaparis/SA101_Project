@@ -14,7 +14,7 @@ namespace IM101
     public partial class inventory : UserControl
     {
         SqlConnection
-          connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+          connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
 
         private int getID = 0;
         public inventory()

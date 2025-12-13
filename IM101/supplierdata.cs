@@ -12,7 +12,7 @@ namespace IM101
     internal class supplierdata
     {
         SqlConnection
-      connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+      connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
 
         public int SupplierID { get; set; }
         public string SupplierName { get; set; }
@@ -23,7 +23,7 @@ namespace IM101
         {
             List<supplierdata> listData = new List<supplierdata>();
 
-            using (SqlConnection connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
+            using (SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
             {
                 connect.Open();
                 string selectData = "SELECT * FROM Supplier";

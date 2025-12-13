@@ -17,7 +17,7 @@ namespace IM101
     public partial class placeorder : UserControl
     {
         SqlConnection
-          connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+          connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
 
         public placeorder()
         {
@@ -62,7 +62,7 @@ namespace IM101
         public void IDGenerator()
         {
             using (SqlConnection
-          connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
+          connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
             {
                 connect.Open();
 
@@ -159,7 +159,7 @@ namespace IM101
 
             if (MessageBox.Show("Are you sure to pay your orders?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                string connectionString = "Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True;";
+                string connectionString = "Data Source=LAPTOP-ABM9GLGF\\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True;";
                 DateTime today = DateTime.Today;
 
                 try

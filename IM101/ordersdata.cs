@@ -11,7 +11,7 @@ namespace IM101
     internal class ordersdata
     {
         SqlConnection
-         connect = new SqlConnection(@"Data Source=SHINE;Initial Catalog=FuntilonDatabase;Integrated Security=True;");
+         connect = new SqlConnection(@"Data Source=LAPTOP-ABM9GLGF\SQLEXPRESS;Initial Catalog=FuntilonDatabase;Integrated Security=True;");
 
         public int PurchaseID { set; get; }
         public int CustomerID { set; get; }
