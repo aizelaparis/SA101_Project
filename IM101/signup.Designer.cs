@@ -70,7 +70,7 @@
             this.loginlabel.ForeColor = System.Drawing.Color.Red;
             this.loginlabel.Location = new System.Drawing.Point(1179, 178);
             this.loginlabel.Name = "loginlabel";
-            this.loginlabel.Size = new System.Drawing.Size(76, 16);
+            this.loginlabel.Size = new System.Drawing.Size(84, 18);
             this.loginlabel.TabIndex = 6;
             this.loginlabel.Text = "Log In Here";
             this.loginlabel.Click += new System.EventHandler(this.loginlabel_Click);
@@ -82,7 +82,7 @@
             this.label7.ForeColor = System.Drawing.Color.Cornsilk;
             this.label7.Location = new System.Drawing.Point(1048, 178);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(125, 16);
+            this.label7.Size = new System.Drawing.Size(135, 18);
             this.label7.TabIndex = 5;
             this.label7.Text = "Already a member?";
             // 
@@ -105,7 +105,7 @@
             this.label6.ForeColor = System.Drawing.Color.Cornsilk;
             this.label6.Location = new System.Drawing.Point(423, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 20);
+            this.label6.Size = new System.Drawing.Size(162, 24);
             this.label6.TabIndex = 8;
             this.label6.Text = "Confirm Password";
             // 
@@ -131,7 +131,7 @@
             this.signup_cpassword.Location = new System.Drawing.Point(576, 107);
             this.signup_cpassword.Name = "signup_cpassword";
             this.signup_cpassword.PasswordChar = '*';
-            this.signup_cpassword.Size = new System.Drawing.Size(231, 27);
+            this.signup_cpassword.Size = new System.Drawing.Size(231, 29);
             this.signup_cpassword.TabIndex = 7;
             // 
             // signup_username
@@ -141,7 +141,7 @@
             this.signup_username.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.signup_username.Location = new System.Drawing.Point(576, 25);
             this.signup_username.Name = "signup_username";
-            this.signup_username.Size = new System.Drawing.Size(231, 27);
+            this.signup_username.Size = new System.Drawing.Size(231, 29);
             this.signup_username.TabIndex = 2;
             // 
             // label5
@@ -151,7 +151,7 @@
             this.label5.ForeColor = System.Drawing.Color.Cornsilk;
             this.label5.Location = new System.Drawing.Point(484, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 20);
+            this.label5.Size = new System.Drawing.Size(97, 24);
             this.label5.TabIndex = 0;
             this.label5.Text = "Username";
             // 
@@ -163,7 +163,7 @@
             this.signup_password.Location = new System.Drawing.Point(576, 65);
             this.signup_password.Name = "signup_password";
             this.signup_password.PasswordChar = '*';
-            this.signup_password.Size = new System.Drawing.Size(231, 27);
+            this.signup_password.Size = new System.Drawing.Size(231, 29);
             this.signup_password.TabIndex = 3;
             // 
             // label4
@@ -173,7 +173,7 @@
             this.label4.ForeColor = System.Drawing.Color.Cornsilk;
             this.label4.Location = new System.Drawing.Point(488, 72);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 20);
+            this.label4.Size = new System.Drawing.Size(92, 24);
             this.label4.TabIndex = 1;
             this.label4.Text = "Password";
             // 
